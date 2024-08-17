@@ -1,0 +1,30 @@
+@import url('sign-up.css');
+
+.box {
+    width: 40% !important;
+}
+
+.box form {
+    border-bottom: none !important;
+    flex-direction: column !important;
+}
+
+.input {
+    min-width: 70% !important;
+}
+
+.box form button {
+    width: fit-content !important;
+    padding: 10px 20px !important;
+}
+
+.input i {
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translate(-50%,-50%);
+    color: var(--main-color);
+    cursor: pointer;
+    /* background-color: var(--fth-color); */
+    padding: 5px;
+}

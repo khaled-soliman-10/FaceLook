@@ -1,0 +1,8 @@
+@import "style.css";
+.forms form:last-of-type button {
+    border: 1px solid #0a9996 !important;
+}
+
+.forms form:last-of-type button:hover {
+    background-color: #0a9996 !important;
+}
